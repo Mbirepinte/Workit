@@ -1,0 +1,152 @@
+.firm_form_dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+  color: var(--purple-light);
+}
+
+.box_firm_body_title {
+  padding: 4vh 7vh;
+  width: 55vw;
+  color: var(--white);
+  background-color: var(--purple-light);
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+  height: 12vh;
+  border-radius: 50px 50px 0 0;
+}
+
+.box_firm_body {
+  border-radius: 0 0 20px 20px;
+  width: 55vw;
+  display: flex;
+  flex-direction: column;
+  color: var(--purple-light);
+  align-items: left;
+  padding: 4vh 6vw;
+  background-color: #fffdfe;
+  justify-content: flex-start;
+  box-sizing: border-box;
+  height: auto;
+  border-radius: 0 0 20px 20px;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+}
+
+.box_firm_body .small-input,
+.box_firm_body .very-small-input {
+  height: 4.5vh;
+  border: #d9d9d9 solid 1px;
+  padding: 8px;
+  outline: none;
+  color: #4e55ad;
+}
+
+.box_firm_body .small-input {
+  width: 12vw;
+  border-radius: 18px;
+}
+
+.box_firm_body .very-small-input {
+  width: 2vw;
+  border-radius: 15px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+
+.logo_firm_block img {
+  width: 13vw;
+}
+.first_line_details {
+  display: flex;
+  flex-direction: column;
+}
+
+.first_line_details .very-small-input {
+  border-radius: 15px;
+}
+
+.first_line_details .small-input {
+  border-radius: 18px;
+}
+.informations-entreprise {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.entreprise_name {
+  width: 25vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.consultant_firm {
+  margin: 1vh 0vw;
+}
+
+.second_line_details {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.third_line-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.third_line-details-block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3vh;
+}
+
+.firm_form_label {
+  margin-bottom: 0.7vh;
+}
+
+.validate_edit {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.firm_form_modify_button,
+.firm_form_delete_button {
+  border-radius: 20px;
+  border: none;
+  box-shadow: 3px 3px rgb(147 169 235 / 50%);
+  padding: 0.5rem;
+  width: 15vw;
+  cursor: pointer;
+  margin-right: 2vw;
+  margin-top: 3vh;
+}
+.firm_form_modify_button {
+  background-color: var(--purple-light);
+  color: var(--white);
+}
+
+.firm_form_delete_button {
+  background-color: var(--white);
+  color: var(--purple-light);
+  border: var(--purple-light) 1px solid;
+}
+
+.firm_form_modify_button:hover,
+.firm_form_delete_button:hover {
+  background-color: var(--orange);
+}
+
+.firm_form_delete_button:hover {
+  color: var(--white);
+}
+.firm_form_message_spe{
+  margin: 5vh 0vw 0vh 0vw;
+  display: flex;
+  justify-content: center;
+  color: green;
+}

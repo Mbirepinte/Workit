@@ -1,0 +1,45 @@
+.publication_date_box {
+  width: 20vw;
+}
+
+.date_titleblock {
+  background-color: var(--purple-light);
+  height: 10vh;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.date_titleblock-admin {
+  background-color: var(--bleu);
+  height: 10vh;
+  border-radius: 50px 50px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.date_title {
+  color: var(--white);
+  font-weight: lighter;
+}
+
+.date_body {
+  background-color: var(--white);
+  height: auto;
+  padding: 1.5vw;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 0px 20px 20px;
+  box-shadow: 3px 3px rgba(184, 197, 235, 0.5);
+  color: var(--purple-dark);
+}
+
+.input_date {
+  margin-top: 1.8vh;
+}
